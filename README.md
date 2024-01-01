@@ -22,7 +22,7 @@ public class GatewayApplication {
 
 - Configure properties
 
-  <pre>
+<pre>
   <code>
 server:
   port: 9999
@@ -31,13 +31,13 @@ spring:
     name: gateway
   config:
     import: optional:configserver:http://localhost:8888
-
 management:
   endpoints:
     web:
       exposure:
         include: '*'
-  </code></pre>
+  </code>
+</pre>
 
   -- start gateway service
 <img src="images/startgateway.png"/>
