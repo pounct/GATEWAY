@@ -39,11 +39,15 @@ management:
   </code>
 </pre>
 
-  -- start gateway service
+-- add  and start challenger service
+
+<img src="images/addChallenger.png"/>
+
+-- start gateway service
+
 <img src="images/startgateway.png"/>
 
--- add  and start challenger service
-<img src="images/addChallenger.png"/>
+
 
 -- test gateway on challenger service gel All challengers
 <img src="images/gatewaywork.png"/>
